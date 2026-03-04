@@ -15,4 +15,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push --force https://JohnBiiKibet:$HF_TOKEN@huggingface.co/spaces/JohnBiiKibet/mlops-production-pipeline HEAD:main
+         run: git push --force https://JohnBiiKibet:$HF_TOKEN@huggingface.co/spaces/JohnBiiKibet/mlops-production-pipeline main
