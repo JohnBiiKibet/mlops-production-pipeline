@@ -16,5 +16,5 @@ jobs:
 
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.MyWriteToken }}
+          HF_TOKEN: ${{ secrets.MYWRITETOKEN1 }}
         run: git push --force https://JohnBiiKibet:$HF_TOKEN@huggingface.co/spaces/JohnBiiKibet/mlops-production-pipeline HEAD:main
