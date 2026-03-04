@@ -1,11 +1,4 @@
 
----
-title: My App
-sdk: streamlit
-app_file: app.py
----
-
-
 
 import streamlit as st
 import pandas as pd
